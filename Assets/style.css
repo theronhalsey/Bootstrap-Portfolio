@@ -12,8 +12,8 @@ body {
     background-color: #4aaaa5;
 }
 
-.navbar-brand:hover
-{
+.navbar-brand:hover {
+    background-color: #4aaaa5;
     box-shadow: 0px 0px 150px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
@@ -57,6 +57,10 @@ hr.style2 {
     border-top: solid 1px #cccccc;
 }
 
+hr.style3 {
+    border-top: solid 5px #4aaaa5;
+}
+
 .imglink {
     display: inline-block;
     margin-left: auto;
@@ -83,4 +87,20 @@ p {
     color: #777777;
     font-size: 12pt;
     text-indent: 5ch;
+}
+
+#foot {
+    margin-top: 20px;
+    border-top: solid 10px;
+    border-top-color: #4aaaa5;
+}
+
+#copyright {
+    background-color: #666666;
+    color: #b9b9b9;
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
