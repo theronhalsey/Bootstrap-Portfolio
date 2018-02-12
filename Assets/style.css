@@ -121,7 +121,6 @@ form {
 }
 
 #name {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
     padding: 12px; 
     border: 1px solid #ccc;
@@ -172,4 +171,49 @@ form {
     -moz-transform: scale(1.2);
     transition: all 200ms ease-in;
     transform: scale(1.2);
+}
+
+/* portfolio page */
+
+.thumbnail {
+    background-image: url(temp.svg);
+    height: 175px;
+}
+
+h6 {
+    position: absolute; z-index: 1; bottom: 25px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;;
+    color: white;
+    width: 155px;
+    height: 40px;
+    text-align: center;
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#hangman {
+    background-image: url(hangman.jpg);
+    height: 175px;
+}
+
+#rpggame {
+    background-image: url(rpggame.jpg);
+    height: 175px;
+}
+
+#triviagame {
+    background-image: url(triviagame.jpg);
+    height: 175px;
+}
+
+#pennwidget {
+    background-image: url(pennwidget.jpg);
+    height: 175px;
+}
+
+#rpsgame {
+    background-image: url(rpsgame.jpg);
+    height: 175px;
 }
