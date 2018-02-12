@@ -1,3 +1,5 @@
+/* index page */
+
 #navi {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 100%;
@@ -108,4 +110,52 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* contact page */
+
+form {
+    font-family: 'Arial', sans-serif;
+    color: #777777;
+    font-size: 12pt;
+}
+
+#name {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+#email {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+#message {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
